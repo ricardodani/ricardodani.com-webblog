@@ -1,2 +1,2 @@
 *.pyc
-custom_settings.py
+core/custom_settings.py
