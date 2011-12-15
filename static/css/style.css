@@ -21,7 +21,7 @@ body {
 }
 
 #container {
-    width: 1160px;
+    width: 965px;
     background-color: #ffffff;
     min-height: 200px;
     box-shadow: 0px -3px 25px 3px #BBB;
@@ -41,7 +41,7 @@ body {
     background-image: url(../img/bg_header.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    height: 50px;
+    height: 48px;
 }
 
 #header .logo {
@@ -49,6 +49,27 @@ body {
     color: #666;
     font-size: 31px;
     display: inline-block;
-    margin: 0;
+    margin: 7px 0 0 0;
     padding: 0;
+    height: 42px;
+}
+
+#header .busca {
+    float: right;
+    height: 42px;
+}
+
+#busca {
+    border: 1px solid #dadada;
+    background-color: #fafafa;
+    height: 25px;
+    width: 250px;
+    margin: 6px 0 0 0;
+    padding: 2px 5px;
+    -webkit-box-shadow: inset 0px 0px 7px -1px #ccc;
+    -moz-box-shadow: inset 0px 0px 7px -1px #ccc;
+    box-shadow: inset 0px 0px 7px -1px #ccc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
 }

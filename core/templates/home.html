@@ -28,9 +28,14 @@
 <body>
 	<div id="container">
         <div id="header">
-            <h1 class="logo">
-            <a href="/" title="Ricardo Dani dot com!"><strong>ricardo</strong><span class="font-black">dani</span><span class="orange">.com</span></a>
-            </h1>
+            <div class="logo">
+                <a href="/" title="{{ SITE_TITLE }}"><img src="{{ STATIC_URL }}/img/logo.png" alt="{{ SITE_TITLE }}" /></a>
+                <a href="/rss" title="Rss"><img src="{{ STATIC_URL }}img/rss.png" /></a>
+            </div>
+            <div class="busca">
+                <input type="text" id="busca" value="buscar" />
+                <a href="/busca">&gt;</a>
+            </div>
         </div>
 		<div id="content" style="padding: 30px;">
             <h4>Breve, aqui: um blog sobre desenvolvimento web, python, django, noSQL, tecnologias ágeis, tdd, jquery e muito mais :).</h4>
